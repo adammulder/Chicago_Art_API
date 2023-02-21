@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="#">
+<script src="/main.js" defer></script>
+<title>Art API</title>
+</head>
+<body>
+  <div class="container-flex text-dark text-center bg-white">
+    <h1>A beautiful Art API display</h1>
+  </div>
+    <div class="container-flex p-5 bg-white text-dark">
+        <div class="row">
+            <div class="col-3">
+                <figure class="gallery__item" id="fig1" onclick="event.stopPropagation(); getInfo(this.id, event)"">
+                    <img class="img-thumbnail" src="/images/img1.jpg" alt="20579" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                      <div class="collapse" id="collapseExample">
+                        <div class="card card-body" id="card1">
+                          <h4 id="head1"></h4>
+                          <p id="p1"></p>
+                        </div>
+                      </div>
+                </figure>
+            </div>
+            <div class="col-3">
+                <figure class="gallery__item" id="fig2" onclick="event.stopPropagation(); getInfo(this.id, event)"">
+                    <img class="img-thumbnail" src="/images/img2.jpg" alt="111642" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                      <div class="collapse" id="collapseExample2">
+                        <div class="card card-body" id="card2">
+                          <h4 id="head2"></h4>
+                          <p id="p2"></p>
+                        </div>
+                      </div>
+                </figure>
+            </div>
+            <div class="col-3">
+                <figure class="gallery__item" id="fig3" onclick="event.stopPropagation(); getInfo(this.id, event)"">
+                    <img class="img-thumbnail" src="/images/img3.jpg" alt="74967" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
+                      <div class="collapse" id="collapseExample3">
+                        <div class="card card-body" id="card3">
+                          <h4 id="head3"></h4>
+                          <p id="p3"></p>
+                        </div>
+                      </div>
+                </figure>
+            </div>
+            <div class="col-3">
+                <figure class="gallery__item" id="fig4" onclick="event.stopPropagation(); getInfo(this.id, event)"">
+                    <img class="img-thumbnail" src="/images/img4.jpg" alt="12977" data-bs-toggle="collapse" data-bs-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">
+                      <div class="collapse" id="collapseExample4">
+                        <div class="card card-body" id="card4">
+                          <h4 id="head4"></h4>
+                          <p id="p4"></p>
+                        </div>
+                      </div>
+                </figure>
+            </div>
+        </div>
+    </div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
